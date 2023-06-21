@@ -59,11 +59,13 @@ The configuration provides sensible defaults for a typical local installation of
 | it.publish.user     | Admin user for the publish instance                 | admin                 |
 | it.publish.password | Password of the admin user for the publish instance | admin                 |
 
+The integration tests in this archetype use the AEM Testing Clients and showcase some recommended best practices to be put in use when writing integration tests for AEM.
 
 # Static Analysis
 The analyse module performs static analysis on the project for deploying into AEMaaCS. It is automatically run when executing
 
 mvn clean install
+
 from the project root directory. Additional information about this analysis and how to further configure it can be found here https://github.com/adobe/aemanalyser-maven-plugin
 
 # UI tests
