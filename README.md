@@ -50,14 +50,15 @@ Test classes must be saved in the src/main/java directory (or any of its subdire
 
 The configuration provides sensible defaults for a typical local installation of AEM. If you want to point the integration tests to different AEM author and publish instances, you can use the following system properties via Maven's -D flag.
 
-Property	Description	Default value
-it.author.url	URL of the author instance	http://localhost:4502
-it.author.user	Admin user for the author instance	admin
-it.author.password	Password of the admin user for the author instance	admin
-it.publish.url	URL of the publish instance	http://localhost:4503
-it.publish.user	Admin user for the publish instance	admin
-it.publish.password	Password of the admin user for the publish instance	admin
-The integration tests in this archetype use the AEM Testing Clients and showcase some recommended best practices to be put in use when writing integration tests for AEM.
+| **Property**        | **Description**                                     | **Default value**     |
+|---------------------|-----------------------------------------------------|-----------------------|
+| it.author.url       | URL of the author instance                          | http://localhost:4502 |
+| it.author.user      | Admin user for the author instance                  | admin                 |
+| it.author.password  | Password of the admin user for the author instance  | admin                 |
+| it.publish.url      | URL of the publish instance                         | http://localhost:4503 |
+| it.publish.user     | Admin user for the publish instance                 | admin                 |
+| it.publish.password | Password of the admin user for the publish instance | admin                 |
+
 
 # Static Analysis
 The analyse module performs static analysis on the project for deploying into AEMaaCS. It is automatically run when executing
